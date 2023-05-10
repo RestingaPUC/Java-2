@@ -1,0 +1,33 @@
+digraph "qqqqqq:teste:jar:1.0-SNAPSHOT" { 
+	"qqqqqq:teste:jar:1.0-SNAPSHOT" -> "mysql:mysql-connector-java:jar:8.0.30:compile" ; 
+	"qqqqqq:teste:jar:1.0-SNAPSHOT" -> "org.hibernate.orm:hibernate-core:pom:6.1.2.Final:compile" ; 
+	"qqqqqq:teste:jar:1.0-SNAPSHOT" -> "org.hibernate:hibernate-entitymanager:jar:5.6.11.Final:compile" ; 
+	"qqqqqq:teste:jar:1.0-SNAPSHOT" -> "org.junit.jupiter:junit-jupiter-api:jar:5.6.0:test" ; 
+	"qqqqqq:teste:jar:1.0-SNAPSHOT" -> "org.junit.jupiter:junit-jupiter-engine:jar:5.6.0:test" ; 
+	"mysql:mysql-connector-java:jar:8.0.30:compile" -> "com.google.protobuf:protobuf-java:jar:3.19.4:compile" ; 
+	"org.hibernate.orm:hibernate-core:pom:6.1.2.Final:compile" -> "jakarta.persistence:jakarta.persistence-api:jar:3.0.0:compile" ; 
+	"org.hibernate.orm:hibernate-core:pom:6.1.2.Final:compile" -> "jakarta.transaction:jakarta.transaction-api:jar:2.0.0:compile" ; 
+	"org.hibernate.orm:hibernate-core:pom:6.1.2.Final:compile" -> "org.jboss.logging:jboss-logging:jar:3.4.3.Final:compile" ; 
+	"org.hibernate.orm:hibernate-core:pom:6.1.2.Final:compile" -> "org.hibernate.common:hibernate-commons-annotations:jar:6.0.2.Final:compile" ; 
+	"org.hibernate.orm:hibernate-core:pom:6.1.2.Final:compile" -> "org.jboss:jandex:jar:2.4.2.Final:compile" ; 
+	"org.hibernate.orm:hibernate-core:pom:6.1.2.Final:compile" -> "com.fasterxml:classmate:jar:1.5.1:compile" ; 
+	"org.hibernate.orm:hibernate-core:pom:6.1.2.Final:compile" -> "net.bytebuddy:byte-buddy:jar:1.12.9:compile" ; 
+	"org.hibernate.orm:hibernate-core:pom:6.1.2.Final:compile" -> "jakarta.xml.bind:jakarta.xml.bind-api:jar:3.0.1:compile" ; 
+	"org.hibernate.orm:hibernate-core:pom:6.1.2.Final:compile" -> "org.glassfish.jaxb:jaxb-runtime:jar:3.0.2:compile" ; 
+	"org.hibernate.orm:hibernate-core:pom:6.1.2.Final:compile" -> "jakarta.inject:jakarta.inject-api:jar:2.0.0:runtime" ; 
+	"org.hibernate.orm:hibernate-core:pom:6.1.2.Final:compile" -> "org.antlr:antlr4-runtime:jar:4.10:runtime" ; 
+	"jakarta.xml.bind:jakarta.xml.bind-api:jar:3.0.1:compile" -> "com.sun.activation:jakarta.activation:jar:2.0.1:compile" ; 
+	"org.glassfish.jaxb:jaxb-runtime:jar:3.0.2:compile" -> "org.glassfish.jaxb:jaxb-core:jar:3.0.2:compile" ; 
+	"org.glassfish.jaxb:jaxb-core:jar:3.0.2:compile" -> "org.glassfish.jaxb:txw2:jar:3.0.2:compile" ; 
+	"org.glassfish.jaxb:jaxb-core:jar:3.0.2:compile" -> "com.sun.istack:istack-commons-runtime:jar:4.0.1:compile" ; 
+	"org.hibernate:hibernate-entitymanager:jar:5.6.11.Final:compile" -> "org.hibernate:hibernate-core:jar:5.6.11.Final:compile" ; 
+	"org.hibernate:hibernate-entitymanager:jar:5.6.11.Final:compile" -> "javax.persistence:javax.persistence-api:jar:2.2:compile" ; 
+	"org.hibernate:hibernate-entitymanager:jar:5.6.11.Final:compile" -> "org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.1.1.Final:compile" ; 
+	"org.hibernate:hibernate-core:jar:5.6.11.Final:compile" -> "antlr:antlr:jar:2.7.7:compile" ; 
+	"org.hibernate:hibernate-core:jar:5.6.11.Final:compile" -> "javax.activation:javax.activation-api:jar:1.2.0:compile" ; 
+	"org.hibernate:hibernate-core:jar:5.6.11.Final:compile" -> "javax.xml.bind:jaxb-api:jar:2.3.1:compile" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.6.0:test" -> "org.apiguardian:apiguardian-api:jar:1.1.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.6.0:test" -> "org.opentest4j:opentest4j:jar:1.2.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-api:jar:5.6.0:test" -> "org.junit.platform:junit-platform-commons:jar:1.6.0:test" ; 
+	"org.junit.jupiter:junit-jupiter-engine:jar:5.6.0:test" -> "org.junit.platform:junit-platform-engine:jar:1.6.0:test" ; 
+ } 
